@@ -8,14 +8,31 @@
 
 #import "AppDelegate.h"
 
+#import "RootViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    RootViewController *rootView = [[RootViewController alloc] init];
+    rootView.title = @"Root view";
+    
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rootView];
+    
+//    [self.navController pushViewController:rootView animated:YES];//将rootView加入到navController中
+    
+//    [self.window setRootViewController:rootView];//添加根视图，否则会报错
+//    self.window.rootViewController = rootView;
+    
+    [self.window addSubview:self.navController.view];
+    
+//    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

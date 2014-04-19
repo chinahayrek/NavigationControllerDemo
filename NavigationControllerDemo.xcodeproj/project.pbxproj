@@ -16,6 +16,12 @@
 		410A18BC168BE32900100070 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A18BB168BE32900100070 /* Default.png */; };
 		410A18BE168BE32900100070 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A18BD168BE32900100070 /* Default@2x.png */; };
 		410A18C0168BE32900100070 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A18BF168BE32900100070 /* Default-568h@2x.png */; };
+		410A18C9168BE39100100070 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A18C7168BE39100100070 /* RootViewController.m */; };
+		410A18CA168BE39100100070 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410A18C8168BE39100100070 /* RootViewController.xib */; };
+		410A18CE168BECF900100070 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A18CC168BECF900100070 /* SecondViewController.m */; };
+		410A18CF168BECF900100070 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410A18CD168BECF900100070 /* SecondViewController.xib */; };
+		410A18D3168BFDBE00100070 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A18D1168BFDBE00100070 /* ThirdViewController.m */; };
+		410A18D4168BFDBE00100070 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410A18D2168BFDBE00100070 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,15 @@
 		410A18BB168BE32900100070 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		410A18BD168BE32900100070 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		410A18BF168BE32900100070 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		410A18C6168BE39100100070 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		410A18C7168BE39100100070 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		410A18C8168BE39100100070 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		410A18CB168BECF900100070 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		410A18CC168BECF900100070 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		410A18CD168BECF900100070 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		410A18D0168BFDBE00100070 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		410A18D1168BFDBE00100070 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		410A18D2168BFDBE00100070 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,15 @@
 			children = (
 				410A18B8168BE32900100070 /* AppDelegate.h */,
 				410A18B9168BE32900100070 /* AppDelegate.m */,
+				410A18C6168BE39100100070 /* RootViewController.h */,
+				410A18C7168BE39100100070 /* RootViewController.m */,
+				410A18C8168BE39100100070 /* RootViewController.xib */,
+				410A18CB168BECF900100070 /* SecondViewController.h */,
+				410A18CC168BECF900100070 /* SecondViewController.m */,
+				410A18CD168BECF900100070 /* SecondViewController.xib */,
+				410A18D0168BFDBE00100070 /* ThirdViewController.h */,
+				410A18D1168BFDBE00100070 /* ThirdViewController.m */,
+				410A18D2168BFDBE00100070 /* ThirdViewController.xib */,
 				410A18B0168BE32900100070 /* Supporting Files */,
 			);
 			path = NavigationControllerDemo;
@@ -154,6 +178,9 @@
 				410A18BC168BE32900100070 /* Default.png in Resources */,
 				410A18BE168BE32900100070 /* Default@2x.png in Resources */,
 				410A18C0168BE32900100070 /* Default-568h@2x.png in Resources */,
+				410A18CA168BE39100100070 /* RootViewController.xib in Resources */,
+				410A18CF168BECF900100070 /* SecondViewController.xib in Resources */,
+				410A18D4168BFDBE00100070 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +193,9 @@
 			files = (
 				410A18B6168BE32900100070 /* main.m in Sources */,
 				410A18BA168BE32900100070 /* AppDelegate.m in Sources */,
+				410A18C9168BE39100100070 /* RootViewController.m in Sources */,
+				410A18CE168BECF900100070 /* SecondViewController.m in Sources */,
+				410A18D3168BFDBE00100070 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
